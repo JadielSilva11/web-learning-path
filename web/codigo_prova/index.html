@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Atendimentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registro de Atendimentos</h1>
+    <input id="nome" type="text" placeholder="Nome do técnico">
+    <input id="local" type="text" placeholder="Local do Atendimento">
+    <input id="atv" type="text" placeholder="Atividade realizada">
+    <input id="duracao" type="number" placeholder="Duração em horas">
+
+    <button onclick="registrar()">Registrar</button>
+
+    <table id="table" border="1">
+        <tr>
+            <th>Nome</th>
+            <th>Local</th>
+            <th>Atividade</th>
+            <th>Duração (h)</th>
+            <th>Duração (min)</th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://si3.ufc.br/sigaa/ava/index.jsf -->
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>UFC - CRATEÚS</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="https://si3.ufc.br/sigaa/ava/index.html">UFC - CRATEÚS</a>
+        </div>
+        <ul>
+            <li> <a href="https://si3.ufc.br/sigaa/ava/index.html"> Home </a> </li>
+            <li> <a href="https://si3.ufc.br/sigaa/ava/sobre.html"> Sobre </a> </li>
+            <li> <a href="https://si3.ufc.br/sigaa/ava/servicos.html"> Serviços </a> </li>
+            <li> <a href="https://si3.ufc.br/sigaa/ava/contato.html"> Contato </a> </li>
+        </ul>
+    </nav>
+
+    <h2>Adicionar Disciplina</h2>
+
+    <input id="codigo" type="text" placeholder="Código">
+    <input id="nome" type="text" placeholder="Nome da Disciplina">
+    <input id="carga" type="number" placeholder="Carga Horária">
+
+    <button onclick="adicionarDisciplina()">Adicionar Disciplina</button>
+
+    <br><br>
+
+    <table id="tabela">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Disciplina</th>
+                <th>Carga Horária</th>
+            </tr>
+        </thead>
+        <tbody id="Tcorpo">
+
+        </tbody>
+    </table>
+
+</body>
+</html>

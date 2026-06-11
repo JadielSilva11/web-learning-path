@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10 - Sistema de busca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Cadastrar alunos</h2>
+    <div class="container">
+        <input id="aluno" type="text" placeholder="Digite o nome do aluno">
+        <button onclick="saveAluno()">Salvar</button>
+    </div>
+
+    <hr>
+
+    <h2>Buscar aluno</h2>
+    <div class="container">
+        <input id="buscarAluno" type="text" placeholder="Buscar um aluno">
+        <button onclick="findAluno()">Buscar</button>
+    </div>
+
+    <hr>
+
+    <button onclick="findAll()">Exibir todos os alunos</button>
+    <div id="exibicao"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

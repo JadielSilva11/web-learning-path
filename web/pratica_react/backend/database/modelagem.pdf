@@ -1,0 +1,48 @@
+BANCO DE DADOS
+
+Cidade
+    - id
+    - nome
+    - estado
+    - população
+    - endereco
+
+Funcionário
+    - id
+    - nome
+    - cpf
+    - cargo
+    - telefone
+    - salario
+    - cidade_id
+
+Equipamento
+    - id
+    - nome
+    - tipo
+    - modelo
+    - fabricante
+    - funcionario_id
+    - data_compra
+    - status
+
+Serviço
+    - id
+    - nome
+    - descricao
+    - data_inicio
+    - data_fim
+    - status
+
+Servico_Equipamento
+    - id
+    - servico_id
+    - equipamento_id
+
+Relacionamentos
+    - Cidade (1) ------------ (n) Funcionario
+        Uma cidade pode ter vários funcionários
+    - Funcionario (1) ------------ (n) Equipamento
+        Um funcionario pode utilizar vários equipamentos
+    - Servico (n) --------------- (n) Equipamento
+        Um serviço pode utilizar vários equipamentos e vice versa

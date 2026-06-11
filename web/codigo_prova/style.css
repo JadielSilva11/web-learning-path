@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+input{
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+button{
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    margin: 10px;
+}
+
+th{
+    background-color: green;
+    font-weight: bolder;
+}
+
+table{
+    min-width: 250px;
+    text-align: center;
+}

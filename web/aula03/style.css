@@ -1,0 +1,77 @@
+header{
+    background-color: gray;
+    padding: 20px;
+}
+
+#hrp{
+    border: solid, 2px, black;
+    margin: 0px;
+}
+
+body{
+    background-color: lightgray;
+    margin: 0px;
+}
+
+section{
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+#titulo{
+    text-align: center;
+}
+
+table{
+    background-color: white;
+    margin-top: 30px;
+    height: 300px;
+    width: 800px;
+}
+
+.impares{
+    margin-left: 100px;
+}
+
+.pares{
+    margin-left: 100px;
+}
+
+.concluidas{
+    background-color: green;
+}
+
+.andamento{
+    background-color: yellow;
+}
+
+.pendentes{
+    background-color: rgba(250, 34, 34, 0.877);
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+}
+
+footer > p{
+    margin: 20px 0px 0px 0px;
+    padding: 5px;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: blue;
+}

@@ -1,0 +1,39 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc{
+    padding: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+    height: 600px;
+}
+
+.calc-line{
+    width: 100%;
+}
+
+.view{
+    width: 24%;
+    border-radius: 5px;
+    height: 50px;
+    margin: 0px 5px 20px 5px;
+}
+
+.btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: solid 1px black;
+    margin: 10px;
+}
+
+
+
+.op{
+    background-color: orange;
+}

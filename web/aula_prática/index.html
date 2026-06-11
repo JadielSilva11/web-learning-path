@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula prática</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>EMPRESA DE SERVIÇOS AMBIENTAIS - Controle de serviços</h1>
+    </header>
+    <main>
+
+        <section>
+            <div>
+                <label for="nome">Técnico: </label>
+                <input id="nome" type="text">
+            </div>
+            <div>
+                <label for="servico">Tipo de serviço: </label>
+                <input id="servico" type="text">
+            </div>
+            <div>
+                <label for="tempo">Duração do serviço (Horas): </label>
+                <input id="tempo" type="number">
+            </div>
+            <div>
+                <label for="custo">Custo do serviço (Por hora): </label>
+                <input id="custo" type="number">
+            </div>
+
+            <div id="but">
+                <button onclick="registrar()">Registrar</button>
+            </div>
+        </section>
+
+        <section>
+            <table>
+                <theader>
+                    <tr>
+                        <th>Técnico</th>
+                        <th>Serviço</th>
+                        <th>Tempo (h)</th>
+                        <th>Tempo (min)</th>
+                        <th>Custo (h)</th>
+                        <th>Custo Total</th>
+                    </tr>
+                </theader>
+                <tbody id="corpo">
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Universidade Federal do Ceará</p>
+    </footer>
+</body>
+</html>
